@@ -50,7 +50,7 @@ const Body = () => {
           <div className='w-24 ml-16 hidden 2xl:block'>
                     <Image
                         className='w-full'
-                        src={"https://ik.imagekit.io/sm4doqwzz/Assets/image.png?updatedAt=1736007648222"}
+                        src={"/assets/shape.svg"}
                         width={50}
                         height={20}
                         layout='intrinsic'

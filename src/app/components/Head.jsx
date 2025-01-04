@@ -7,32 +7,32 @@ const Head = () => {
         {
           title: 'Clinically Studied',
           description: 'All products that we offer have undergone lab and safety tests',
-          icon: 'https://ik.imagekit.io/sm4doqwzz/Assets/image(1).png?updatedAt=1735927432651',
+          icon: '/assets/Beaker.svg',
         },
         {
           title: 'Vegetarian Friendly',
           description: 'We have a wide selection of vegetarian products to meet your needs',
-          icon: 'https://ik.imagekit.io/sm4doqwzz/Assets/image.png?updatedAt=1735927432879',
+          icon: '/assets/Leaf.svg',
         },
         {
           title: 'Made In India',
           description: 'Shop local and explore health products made right here in India',
-          icon: 'https://ik.imagekit.io/sm4doqwzz/Assets/image(2).png?updatedAt=1735927432646',
+          icon: '/assets/Flag.svg',
         },
         {
           title: 'Free Shipping',
           description: 'We deliver to your door while helping you save on shipping costs',
-          icon: 'https://ik.imagekit.io/sm4doqwzz/Assets/image(3).png?updatedAt=1735927432642',
+          icon: '/assets/Shipping.svg',
         },
         {
           title: 'No Risk',
           description: 'We ensure that all products are safe to try within their expiry date',
-          icon: 'https://ik.imagekit.io/sm4doqwzz/Assets/image(4).png?updatedAt=1735927432407',
+          icon: '/assets/NoRisk.svg',
         },
         {
           title: 'GMO Free',
           description: 'Natural, non-modified products are derived for those who need it',
-          icon: 'https://ik.imagekit.io/sm4doqwzz/Assets/image(5).png',
+          icon: '/assets/GMOFree.svg',
         },
     ];
 
@@ -40,7 +40,7 @@ const Head = () => {
         <div className="w-full">
             <div className="w-1/3 ml-5 sm:w-1/4 md:w-1/6 lg:w-1/12 sm:ml-24 mb-2">
                 <Image 
-                    src="https://ik.imagekit.io/sm4doqwzz/Assets/image(1).png?updatedAt=1735918423426"
+                    src="/assets/Logo2.svg"
                     alt="Logo"
                     width={100} 
                     height={50} 
@@ -60,7 +60,7 @@ const Head = () => {
                     <div className='w-full sm:w-1/2 md:w-1/3 lg:w-1/4 sm:ml-24 bg-[#FFE9B5] rounded-tl-[150px] rounded-br-[150px]'>
                         <Image 
                             className='-mt-16'
-                            src="https://ik.imagekit.io/sm4doqwzz/Assets/image.png?updatedAt=1735921100793"
+                            src="/assets/Probotics.svg"
                             alt="Logo"
                             width={100} 
                             height={50} 
@@ -75,7 +75,7 @@ const Head = () => {
                                     width={100} 
                                     height={50} 
                                     layout="responsive"
-                                    src={"https://ik.imagekit.io/sm4doqwzz/Assets/image(1).png"}
+                                    src={"/assets/Vitamin.svg"}
                                 />
                             </div>
                             <div className='text-[#727272]'>
@@ -90,7 +90,7 @@ const Head = () => {
                                     width={100} 
                                     height={50} 
                                     layout="responsive"
-                                    src={"https://ik.imagekit.io/sm4doqwzz/Assets/image(2).png"}
+                                    src={"/assets/Weight.svg"}
                                 />
                             </div>
                             <div className='text-[#727272]'>
@@ -105,7 +105,7 @@ const Head = () => {
                                     width={100} 
                                     height={50} 
                                     layout="responsive"
-                                    src={"https://ik.imagekit.io/sm4doqwzz/Assets/image.png?updatedAt=1736021003712"}
+                                    src={"/assets/FunctionalFoods.svg"}
                                 />
                             </div>
                             <div className='text-[#727272]'>
@@ -121,11 +121,11 @@ const Head = () => {
                 </div>
 
             </div>
-            <div className='bg-[#17414F] mx-4 md:mx-16 lg:mx-32 rounded-3xl -mt-36 h-auto md:h-96 flex flex-wrap justify-evenly gap-16 px-4 py-10'>
+            <div className='bg-[#17414F] mx-4 md:mx-16 lg:mx-32 rounded-3xl -mt-36 h-auto md:h-96 flex flex-wrap justify-evenly gap-24  px-4 py-10'>
     {
         features.map((feature, idx) => (
             <div className="w-full md:w-1/4 flex flex-col items-center" key={idx}>
-                <div className='bg-white w-24 h-24 p-6 rounded-full shadow-md text-center -mt-12'>
+                <div className='bg-white w-24 h-24 p-6 rounded-full shadow-md text-center -mt-20 '>
                     <div className="w-12 h-12 mx-auto mb-4 flex justify-center items-center">
                         <Image
                             src={feature.icon}

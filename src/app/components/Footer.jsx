@@ -30,7 +30,7 @@ const Footer = () => {
             </div>
             <div className='flex flex-wrap items-center justify-center gap-5'>
                 <Image
-                    src={"https://ik.imagekit.io/sm4doqwzz/Assets/image.png?updatedAt=1736014060413"}
+                    src={"assets/Logo2.svg"}
                     width={200}
                     height={50}
                     alt='Logo'
