@@ -84,7 +84,7 @@ const Head = () => {
                             </div>
                         </div>
                         <div className='flex items-center gap-4 '>
-                            <div className='w-1/2 sm:w-1/6'>
+                            <div className='w-1/3 sm:w-1/6'>
                                 <Image
                                     alt="Logo"
                                     width={100} 
@@ -99,7 +99,7 @@ const Head = () => {
                             </div>
                         </div>
                         <div className='flex items-center gap-4'>
-                            <div className='w-1/2 sm:w-1/6'>
+                            <div className='w-1/3 sm:w-1/6'>
                                 <Image
                                     alt="Logo"
                                     width={100} 
