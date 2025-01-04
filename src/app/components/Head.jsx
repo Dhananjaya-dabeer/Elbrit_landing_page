@@ -105,7 +105,7 @@ const Head = () => {
                                     width={100} 
                                     height={50} 
                                     layout="responsive"
-                                    src={"https://ik.imagekit.io/sm4doqwzz/Assets/image(3).png"}
+                                    src={"https://ik.imagekit.io/sm4doqwzz/Assets/image.png?updatedAt=1736021003712"}
                                 />
                             </div>
                             <div className='text-[#727272]'>
